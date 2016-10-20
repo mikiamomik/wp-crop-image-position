@@ -1,13 +1,13 @@
 <?php
-	/*
-	Plugin Name: Crop Image Position
-	Plugin URI: https://github.com/mikiamomik/wp-crop-image-position/
-	Description: Wordpress Plugin that allows you to select the crop position of your thumbnails before upload it.
-	Author: Bernardo Picaro
-	Text Domain: crop_image_position
-	Domain Path: /languages
-	Version: 1.0
-	*/
+/*
+Plugin Name: Crop Image Position
+Plugin URI: https://github.com/mikiamomik/wp-crop-image-position/
+Description: Wordpress Plugin that allows you to select the crop position of your thumbnails before upload it.
+Author: Bernardo Picaro
+Text Domain: crop_image_position
+Domain Path: /languages
+Version: 1.0
+*/
 
 
 add_action('admin_init', 'crop_image_position_init');
