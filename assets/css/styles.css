@@ -1,0 +1,56 @@
+.crop--image--position {
+    text-align: center;
+}
+
+.crop--image--position__controls {
+    overflow: hidden;
+    width: 210px;
+    margin: 0 auto;
+    position: relative;
+    background: black;
+    text-align: center;
+    height: 210px;
+    display: table;
+}
+
+.crop--image--position__controls img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.crop--image--position__controls .button.button-cip {
+    height: calc(210px / 3);
+    position: relative;
+    float: left;
+    width: calc(210px / 3);
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    border-radius: 0;
+    margin: 0px;
+    opacity: 0.6;
+    top: 0;
+}
+
+.crop--image--position__controls .button.button-cip:hover {
+    opacity: 0.8;
+}
+
+.crop--image--position__controls .button.button-cip.button-primary {
+    background: #ba0000;
+    border-color: #aa0000 #990000 #990000;
+    -webkit-box-shadow: 0 1px 0 #990000;
+    box-shadow: 0 1px 0 #990000;
+    opacity: 0.95;
+}
+
+.crop--image--position__controls .loading {
+    pointer-events: none;
+    background: #ba0000;
+    opacity: 0.6 !important;
+}
+
+.crop--image--position__controls .button-not-enabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
