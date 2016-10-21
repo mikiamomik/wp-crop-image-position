@@ -18,7 +18,7 @@ if ( !class_exists('Crop_Image_Position') ):
 			self::$language_domain = 'crop_image_position';
 			self::$default_position = 4;
 
-			load_plugin_textdomain( $language_domain, false, dirname( plugin_basename( $plugin ) ) . '/languages/' );
+			load_plugin_textdomain( self::$language_domain, false, dirname( plugin_basename( $plugin ) ) . '/languages/' );
 
 			// Action and filter hooks
 			global $pagenow;
