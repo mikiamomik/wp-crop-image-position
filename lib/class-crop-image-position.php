@@ -69,17 +69,17 @@ if ( !class_exists('Crop_Image_Position') ):
 
 					<img src='http://lorempixel.com/210/210/people/' />
 
-					<span class="button button-cip<?php echo $crop_position == 0 ? ' button-primary' : ''; ?>" data-cip="<?= $crop_position ?>"></span>
-					<span class="button button-cip<?php echo $crop_position == 1 ? ' button-primary' : ''; ?>" data-cip="<?= $crop_position ?>"></span>
-					<span class="button button-cip<?php echo $crop_position == 2 ? ' button-primary' : ''; ?>" data-cip="<?= $crop_position ?>"></span>
+					<span class="button button-cip<?php echo $crop_position == 0 ? ' button-primary' : ''; ?>" data-cip="0"></span>
+					<span class="button button-cip<?php echo $crop_position == 1 ? ' button-primary' : ''; ?>" data-cip="1"></span>
+					<span class="button button-cip<?php echo $crop_position == 2 ? ' button-primary' : ''; ?>" data-cip="2"></span>
 
-					<span class="button button-cip<?php echo $crop_position == 3 ? ' button-primary' : ''; ?>" data-cip="<?= $crop_position ?>"></span>
-					<span class="button button-cip<?php echo $crop_position == 4 ? ' button-primary' : ''; ?>" data-cip="<?= $crop_position ?>"></span>
-					<span class="button button-cip<?php echo $crop_position == 5 ? ' button-primary' : ''; ?>" data-cip="<?= $crop_position ?>"></span>
+					<span class="button button-cip<?php echo $crop_position == 3 ? ' button-primary' : ''; ?>" data-cip="3"></span>
+					<span class="button button-cip<?php echo $crop_position == 4 ? ' button-primary' : ''; ?>" data-cip="4"></span>
+					<span class="button button-cip<?php echo $crop_position == 5 ? ' button-primary' : ''; ?>" data-cip="5"></span>
 
-					<span class="button button-cip<?php echo $crop_position == 6 ? ' button-primary' : ''; ?>" data-cip="<?= $crop_position ?>"></span>
-					<span class="button button-cip<?php echo $crop_position == 7 ? ' button-primary' : ''; ?>" data-cip="<?= $crop_position ?>"></span>
-					<span class="button button-cip<?php echo $crop_position == 8 ? ' button-primary' : ''; ?>" data-cip="<?= $crop_position ?>"></span>
+					<span class="button button-cip<?php echo $crop_position == 6 ? ' button-primary' : ''; ?>" data-cip="6"></span>
+					<span class="button button-cip<?php echo $crop_position == 7 ? ' button-primary' : ''; ?>" data-cip="7"></span>
+					<span class="button button-cip<?php echo $crop_position == 8 ? ' button-primary' : ''; ?>" data-cip="8>"></span>
 
 				</div>
 			</div>
