@@ -158,7 +158,7 @@ if ( !class_exists('Crop_Image_Position') ):
 					$s_y = $__y_center;
 				}
 
-				self::cip_reset_position();
+				// self::cip_reset_position();
 
 			// don't crop, just resize using $dest_w x $dest_h as a maximum bounding box
 			} else {
