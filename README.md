@@ -2,10 +2,9 @@
 
 Tags: thumbnail, crop, position, upload, media, library, gallery, image, size
 
-Requires at least: 4.6.1
+Requires at least: 4.7.5
 
-Tested up to: 4.6.1
-
+Tested up to: 4.7.5
 
 # Description
 
@@ -20,6 +19,9 @@ Wordpress Plugin that allows you to select the crop position of an image before 
 
 
 # Change log
+
+== 1.0.1 ==
+* add composer.json
 
 == 1.0 ==
   * Initial Release.
