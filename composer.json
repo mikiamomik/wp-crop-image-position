@@ -1,0 +1,15 @@
+{
+  "name": "wp-crop-image-position",
+  "description": "Wordpress Plugin that allows you to select the crop position of your thumbnails before upload it.",
+  "license":"MIT",
+  "type": "wordpress-plugin",
+  "authors":[
+      {
+          "name":"Bernardo Picaro",
+          "email":"mi.karo@hotmail.it"
+      }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  }
+}

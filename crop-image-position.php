@@ -6,7 +6,7 @@ Description: Wordpress Plugin that allows you to select the crop position of you
 Author: Bernardo Picaro
 Text Domain: crop_image_position
 Domain Path: /languages
-Version: 1.0
+Version: 1.0.1
 */
 
 
