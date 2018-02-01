@@ -67,7 +67,7 @@ if ( !class_exists('Crop_Image_Position') ):
 				<h2><?php _e( 'Select Crop Image Position:', self::$language_domain );?></h2>
 				<div class="crop--image--position__controls">
 
-					<img src='http://lorempixel.com/210/210/people/' />
+					<img src='//lorempixel.com/210/210/people/' />
 
 					<span class="button button-cip<?php echo $crop_position == 0 ? ' button-primary' : ''; ?>" data-cip="0"></span>
 					<span class="button button-cip<?php echo $crop_position == 1 ? ' button-primary' : ''; ?>" data-cip="1"></span>
